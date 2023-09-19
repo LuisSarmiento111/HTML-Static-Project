@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Sunday Pizza;
+  src: url("fonts/Sunday Pizza.ttf");
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  size: h4;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+p {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+}
+
+html {
+  font-family: Sunday Pizza;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #09467a;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0066c0;
+}
+
+.div_content {
+  margin: 8px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: aqua;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #013969;
+  color: aliceblue;
+}
